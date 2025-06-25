@@ -1,0 +1,150 @@
+class PrimeOperations_01
+ {
+ //to check for prime 
+  public static boolean isPrime(int N)
+    {
+     if(N==1) return false;
+     int fc=0;
+     for(int i=2;i<=N/2;i++)
+       {
+         if(N%i==0)fc++;
+       }
+     if(fc==0) return true;
+     else return false;
+    }
+ 
+ public static boolean isPrime_B(int N)
+   {
+     
+     if(N==1) return false;
+     for(int i=2;i<=N/2;i++)
+       {
+         if(N%i==0)return false;
+       }
+     return true;
+  }
+  
+//gen. prime numbers in a given range 
+public static void  primeNumbers(int L,int U)
+  {
+   for(int N=L;N<=U;N++)
+      if(isPrime_B(N)) System.out.println(N+" is Prime "); 
+  }
+  
+//gen. twin primes in a range
+public static void twinPrimes(int L,int U)
+ {
+   for(int N=L;N<=U;N++)
+     if(isPrime_B(N) && isPrime_B(N+2)) 
+             System.out.println(N+"\t"+(N+2)+" are twin primes");
+ }
+ 
+//to check for semiprime
+//it is suppose to be product of 2 prime numbers
+public static boolean isSemiPrime(int N)
+ {
+   for(int f=2;f<=N/2;f++)
+    {
+     if(N%f==0 && isPrime(f) && isPrime(N/f) )
+       return true;
+     
+    }
+   return false; 
+  }
+  
+public static void semiPrimeNumbers(int L,int U)
+ {
+     for(int N=L;N<=U;N++)
+      if(isSemiPrime(N)) System.out.println(N+" is Semi Prime "); 
+  }
+  
+public static boolean  areCoPrime(int M,int N)
+ {
+   for(int i=2;i<=M && i<=N ;i++)
+    {
+     if(M%i==0 && N %i==0) return false;
+    }
+  return true;
+ }
+//an Emirp is one which a prime number and its reverse is also a prime . 
+//example 13 here both 13 and 31 are prime
+public static boolean isEmirp(int N)
+  {
+  int R=NumberOperations.reverse(N);
+  if(isPrime(N) && isPrime(R)) return true; else return false;
+ }
+ 
+public static void emirpNumbers(int a,int b)
+ {
+  System.out.println("Emirp Numbers for given range : "); 
+  for(int i=a;i<=b;i++)
+     if(isEmirp(i)) System.out.println(i);
+  }
+  
+public static void primeFactors(int N)
+ {
+   for(int i=2;i<=N;i++)
+     if(N%i==0 && isPrime(i) ) System.out.println(i);
+  }
+  
+public static void primeFactorsIncDuplicates(int N)
+ {
+  for(int i=2;i<=N;i++)
+   {
+    while (N%i==0 && isPrime(i))
+     {
+      System.out.println(i);
+      N=N/i;
+      }
+    }
+  }
+  
+public static void primeFactorsDuplicatesInc(int N)
+ {
+  for(int i=2;i<=N;i++)
+   {
+    if(N %i==0) 
+             {System.out.println(i);
+              N=N/i;
+              i--;
+             }  
+    }
+}
+ 
+public static boolean isMagicPrime(int N)
+ {
+   if(isPrime(N) && NumberOperations.isMagic(N))return true; else return false;
+}
+
+public static void magicPrimeNumbers(int a,int b)
+ {
+   for(int i=a;i<=b;i++)
+    if(isMagicPrime(i)) System.out.println(i);
+  }
+  
+public static boolean isCircularPrime(int N)
+ {
+  int nd=NumberOperations.getDigits(N);
+  //System.out.println("nd="+nd);
+  int i=1;
+  while(i<=nd)
+   {
+    //System.out.println("N="+N);
+    if(isPrime(N)==false)return false;
+    int r1=N%10;
+    int r2=N/10;
+    N=r1*(int)Math.pow(10,nd-1)+r2;
+    i++;
+   }
+  return true;
+}
+    
+}
+  
+  
+  
+
+
+
+
+    

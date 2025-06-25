@@ -1,0 +1,40 @@
+//prg involving various operations on Prime Numbers
+class PrimeOperations_0
+ {
+ //to check for prime 
+ private  boolean isPrime(int N)//method prototype
+   {//method body begins here
+     
+     //if(N==1) return false;
+     for(int i=2;i<=N/2;i++)
+       {
+         if(N%i==0)return false;
+       }
+  return true; 
+  }//method body ends here
+  
+//gen. prime numbers in a given range 
+private  void  primeNumbers(int L,int U)//L and U are formal parameters
+  {
+   for(int N=L;N<=U;N++)
+      if(isPrime(N)) System.out.println(N+" is Prime ");
+    
+  }
+  
+public static void main(String args[])
+ {
+  int x=Integer.parseInt(args[0]);
+  int y=Integer.parseInt(args[1]);
+  PrimeOperations_0 obj=new PrimeOperations_0();
+  obj.primeNumbers(x,y);//x and y are acctual parameters (they must match with formal parameters)
+ }
+    
+}
+  
+  
+  
+
+
+
+
+    

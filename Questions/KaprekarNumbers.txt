@@ -1,0 +1,41 @@
+//to gen. a range of Kaprekar numbers
+class KaprekarNumbers
+{
+   
+  public int countDigits(int n) 
+   {
+     int d=0;
+     while(n>0)
+      {
+        d++;
+        n=n/10;
+      }
+     return d;
+    }
+    
+  public boolean isKaprekar(int n)
+   {
+     int s=n*n;
+     int d=countDigits(n);
+     int df=(int)Math.pow(10,d);
+     int p1=s%df;
+     int p2=s/df;
+     int sum=p1+p2;
+     if(sum==n) return true; else return false;
+    }
+   
+   public void display(int l,int u)
+    {
+     for(int i=l;i<=u;i++)
+      {
+      if(isKaprekar(i)) System.out.println(i+" is a Kaprekar number");
+      }
+    }
+  
+  public static void main(String args[])
+   {
+     KaprekarNumbers K=new KaprekarNumbers();
+     K.display(1,1000);
+    }
+}
+    

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=CT\ shift
+comment0.target=Decrypt2k3_1(java.lang.String,\ byte)
+comment1.params=
+comment1.target=void\ decryptNow()
+numComments=2

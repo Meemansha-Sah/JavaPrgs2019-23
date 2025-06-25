@@ -1,0 +1,50 @@
+//to check if a given number is
+//Kaprekar number or not
+//examples 9,45,55,99,297 etc
+//9^2=81   two parts of 81 ar 8 and 1 and their sum is 8+1 =9 which is same as orignal number
+//45^2 =2025  two parts 20 and 25  and sum =20+25=45 (same as orignal number)
+class KaprekarNumberCheck
+{
+  int n;
+  
+  public KaprekarNumberCheck(int n)
+   {
+     this.n=n;
+   }
+   
+  public int countDigits(int n) 
+   {
+     int d=0;
+     while(n>0)
+      {
+        d++;
+        n=n/10;
+      }
+     return d;
+    }
+    
+  public boolean isKaprekar()
+   {
+     int s=n*n;
+     int d=countDigits(n);
+     int df=(int)Math.pow(10,d);
+     int p1=s%df;
+     int p2=s/df;
+     int sum=p1+p2;
+     if(sum==n) return true; else return false;
+    }
+   
+   public void display()
+    {
+      if(isKaprekar()) System.out.println(n+" is a Kaprekar number");
+      else System.out.println(n+" is not a Kaprekar number ");
+    }
+    
+  public static void main(String args[])
+   {
+      int n=Integer.parseInt(args[0]);
+     KaprekarNumberCheck K=new KaprekarNumberCheck(n);
+     K.display();
+    }
+}
+    

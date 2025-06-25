@@ -1,0 +1,77 @@
+
+import java.util.Scanner;
+class SmithNumbers
+{
+ int m,n;
+ int f;
+ 
+ void input()
+  {
+    Scanner in=new Scanner(System.in);
+    System.out.println("Enter lower and upper limits ");
+    m=in.nextInt();
+    n=in.nextInt();
+ }
+ 
+ boolean isPrime(int A)//method for checking whether 
+                                     //the number is prime or no
+        {
+          for(int i=2;i<=A/2;i++)
+            {
+                if(A%i==0)
+                   return false;
+            }
+        return true;
+     }//end of method
+    
+       
+ int sumDigits(int num)//method for calculating the sum of digits in orignal number
+        {
+           int sum=0;
+            while(num>0)
+            {
+                int r=num%10;
+                sum=sum+r;//sum of digits
+                num=num/10;
+            }
+         return sum;   
+        }//end of method
+        
+       
+ int sumDigitsPrimeFactors(int n)//method for calculating sum
+   {
+    int sum2=0;
+    for(int i=2;i<=n;i++)
+     {
+      while(n%i==0&& isPrime(i))//to check for prime factor
+         { 
+           sum2=sum2+sumDigits(i);
+           n=n/i;
+          }//end while
+       }//end for
+       
+     return sum2;
+   }//end method
+   
+  boolean isSmithNumber(int n)//this method checks whether 
+   {
+    if(!isPrime(n) && sumDigits(n)==sumDigitsPrimeFactors(n))
+           return true;
+    else return false;
+    }//end of method
+    
+  void displaySmithNumbers()
+      {
+       for(int i=m;i<=n;i++)
+        if(isSmithNumber(i))//condition which checks the given number
+            System.out.println(i +" is  SMITH NUMBER");    
+       }
+  public static void main(String args[])
+   {
+    SmithNumbers sn1=new SmithNumbers();
+    sn1.input();
+    sn1.displaySmithNumbers();
+  }
+ }//end of class
+
+

@@ -1,0 +1,79 @@
+class NumberOperations
+ {
+   //method to extract digits of a number
+   public static void extractDigits(int N)
+    {
+     for(int M=N;M>0;M=M/10)
+      {
+       int R=M%10;
+       System.out.println(R);
+       //M=M/10;
+      }
+    }
+    
+   public static int sumDigits(int N)
+    {
+     int M=N;
+     int sum=0;
+     while(M>0)
+      {
+       int R=M%10;
+       sum+=R;
+       M=M/10;
+      }
+    return sum;  
+    }  
+    
+   static  int getDigits(int N)
+    { int nd=0;
+     for(int M=N;M>0;M=M/10)
+        nd++;
+     return nd;
+     }      
+    
+   public static boolean is3DigitArmstrong(int N)
+    {
+     int M=N;
+     int sum=0;
+     while(M>0)
+      {
+       int R=M%10;
+       sum+=R*R*R;
+       M=M/10;
+      }
+    if(sum==N) return true; else return false;
+    }    
+    
+   public static void armstrongNumbers(int L,int U)
+    {
+      for(int N=L;N<=U;N++)
+       {
+         if(is3DigitArmstrong(N)) System.out.println(N);
+        }
+    }
+    
+  public static int reverse(int N)
+   {
+    int M=N;
+    int RV=0;
+    while(M>0)
+     {
+       int D=M%10;
+       RV=RV*10+D;
+       M=M/10;
+    }
+  return RV;
+  }
+  
+public static boolean isMagic(int N)
+ {
+   while(N>9)
+    {
+      N=sumDigits(N);
+    }
+  if(N==1) return true; else return false;
+}
+
+    
+}
+       

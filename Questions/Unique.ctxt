@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=i
+comment1.target=int\ no_digits(int)
+comment2.params=n\ l
+comment2.target=int[]\ extractDigits(int,\ int)
+comment3.params=n
+comment3.target=boolean\ isUnique(int)
+comment4.params=m\ n
+comment4.target=void\ uniqueRange(int,\ int)
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=int\ noDigits(int)
+comment1.params=n
+comment1.target=boolean\ isKaprekar(int)
+comment2.params=p\ q
+comment2.target=void\ RangeKarprekar(int,\ int)
+comment3.params=
+comment3.target=void\ main()
+numComments=4

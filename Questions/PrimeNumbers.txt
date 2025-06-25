@@ -1,0 +1,18 @@
+//prg to check if a number is prime or not
+class PrimeNumbers
+ {
+   public static void main(String args[])
+    {
+     for(int N=2;N<=100;N++)
+     {
+     int fc=0;
+     for(int i=2;i<=N/2;i++)
+       {
+         if(N%i==0)fc++;
+       }//inner loop ends here
+     if(fc==0) System.out.println(N+" is a Prime number ");
+     //else System.out.println(N+ " is not a prime number ");
+     }//end outer loop
+    }//end main
+}//end class
+     

@@ -1,0 +1,76 @@
+//Adam number -square of a number and the square of its reverse are reverse to each other.
+// Example: If n = 13 and reverse of 'n' is 31, then, 13^2 = 169, and 31^2 = 961 
+// 169 is reverse of 961
+import java.util.Scanner;
+class PrimeAdamNumbers
+ {
+   int m,n;
+   int f;
+   
+   public PrimeAdamNumbers()
+    {
+       f=m=n=0;
+    }
+   
+   public boolean input()
+    {
+     Scanner in=new Scanner(System.in);
+     System.out.println("Enter values of m and n");
+     m=in.nextInt();
+     n=in.nextInt();
+     if(m>=n) return false; else return true;
+    }
+   
+  public  boolean isPrime(int N)
+    {
+      int fc=0;
+      for(int i=1;i<=N;i++)
+       {
+         if(N%i==0) fc++;
+        }
+      if(fc==2) return true; else return false;
+    }   
+    
+    
+ public int reverse(int n)
+  {
+    int m=n;
+    int rev=0;
+    while(m>0)
+     {
+      int r=m%10;
+      rev=rev*10+r;
+      m=m/10;
+     }
+  return rev;   
+  }
+  
+ boolean isAdamPrime(int n)
+  {
+  int rev=reverse(n); 
+  int sq1=n*n;
+  int sq2=rev*rev;
+  int rev2=reverse(sq2);
+  if(sq1==rev2 && isPrime(n)) return true; else return false;
+  }
+  
+public void display()
+ {
+   System.out.println("The Prime-Adam Integers are :");
+   for(int i=m;i<=n;i++) 
+     if(isAdamPrime(i)) {f++;
+                         System.out.print(i+" ");
+                        }
+   System.out.println("Frequency of Prime-Adam Integers is : "+f);
+  }
+  
+ public static void main(String args[])
+   {
+     PrimeAdamNumbers A1=new PrimeAdamNumbers();
+     if(!(A1.input())) System.out.println("INVALID INPUT ");
+     else A1.display();
+    }
+     
+}
+
+   

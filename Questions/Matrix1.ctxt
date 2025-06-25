@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=Matrix1(int)
+comment1.params=m
+comment1.target=boolean\ isValidInput(int)
+comment2.params=
+comment2.target=void\ input()
+comment3.params=
+comment3.target=void\ displayMatrix1()
+comment4.params=
+comment4.target=boolean\ isSymmetric()
+comment5.params=
+comment5.target=void\ sumDiagonal()
+comment6.params=
+comment6.target=void\ main()
+numComments=7

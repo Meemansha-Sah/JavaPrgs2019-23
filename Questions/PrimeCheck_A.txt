@@ -1,0 +1,15 @@
+//prg to check if a number is prime or not
+class PrimeCheck_A
+ {
+   public static void main(String args[])//method prototype
+    {    
+     int N=Integer.parseInt(args[0]);
+     int fc=0;
+     for(int i=1;i<=N;i++)
+       {
+         if(N%i==0)fc=fc+1;
+       }
+     if(fc==2) System.out.println(N+" is a Prime number ");
+     else System.out.println(N+ " is not a prime number ");
+    }   
+}

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PrimeAtPosition
+comment1.params=n
+comment1.target=boolean\ isPrime(int)
+comment2.params=l\ u\ n
+comment2.target=void\ find_atPosition(int,\ int,\ int)
+comment3.params=L\ U\ n
+comment3.target=void\ main(int,\ int,\ int)
+numComments=4

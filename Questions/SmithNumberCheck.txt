@@ -1,0 +1,75 @@
+
+ // Question 1
+/*this program takes in an integer N as entered by the user and checks
+ * whether it is a smith number or not
+ * for example 666 which is a smith number
+ * and 999 is not a smith number
+ */   
+class SmithNumberCheck
+{
+ 
+  private  int number;
+    
+  public SmithNumberCheck(int n)
+   {number=n;
+    }
+       
+ boolean isPrime(int A)//method for checking whether 
+                                     //the number is prime or no
+        {
+          for(int i=2;i<=A/2;i++)
+            {
+                if(A%i==0)
+                   return false;
+            }
+        return true;
+     }//end of method
+    
+       
+ int sumDigits(int num)//method for calculating the sum of digits in orignal number
+        {
+           int sum=0;
+            while(num>0)
+            {
+                int r=num%10;
+                sum=sum+r;//sum of digits
+                num=num/10;
+            }
+         return sum;   
+        }//end of method
+        
+       
+ int sumDigitsPrimeFactors(int n)//method for calculating sum
+   {
+    int sum2=0;
+    for(int i=2;i<=n;i++)
+     {
+      while(n%i==0&& isPrime(i))//to check for prime factor
+         { 
+           sum2=sum2+sumDigits(i);
+           n=n/i;
+          }//end while
+       }//end for
+       
+     return sum2;
+   }//end method
+   
+  boolean isSmithNumber()//this method checks whether 
+   {
+    if(!isPrime(number) && sumDigits(number)==sumDigitsPrimeFactors(number))
+           return true;
+    else return false;
+    }//end of method
+    
+  void display()//this method prints 
+                 //whether the number is a SMITH NUMBER or not
+      {
+        if(isSmithNumber())//condition which checks the given number
+            System.out.println("INPUT "+number+" "+"OUTPUT SMITH NUMBER");    
+        else
+            System.out.println("INPUT  "+number+" "+"OUTPUT NOT A SMITH NUMBER");
+      }//end of method  
+      
+    }//end of class
+
+
