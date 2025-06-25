@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=remove_vowels
+comment1.params=in
+comment1.target=void\ input(java.lang.String)
+comment2.params=
+comment2.target=void\ remove()
+comment3.params=
+comment3.target=void\ display()
+comment4.params=in
+comment4.target=void\ main(java.lang.String)
+numComments=5

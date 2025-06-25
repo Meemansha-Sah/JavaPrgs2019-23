@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Encode
+comment1.params=k
+comment1.target=Encode(java.lang.String)
+comment2.params=
+comment2.target=void\ makeSequenceE()
+comment3.params=M
+comment3.target=java.lang.String\ encodeMessage(java.lang.String)
+numComments=4

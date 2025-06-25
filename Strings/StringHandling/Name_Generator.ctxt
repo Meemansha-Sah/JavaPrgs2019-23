@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Name_Generator
+comment1.params=
+comment1.target=java.lang.String\ generate()
+comment2.params=
+comment2.target=java.lang.String\ letterGenerate()
+comment3.params=
+comment3.target=int\ tel_noGenerate()
+numComments=4

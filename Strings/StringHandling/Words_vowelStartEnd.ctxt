@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Words_vowelStartEnd
+comment1.params=S
+comment1.target=Words_vowelStartEnd(java.lang.String)
+comment2.params=
+comment2.target=void\ extract()
+comment3.params=
+comment3.target=void\ vowel2()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
