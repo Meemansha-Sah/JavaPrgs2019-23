@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Array2dCreateMulti
+comment1.params=
+comment1.target=int\ enterRows()
+comment2.params=
+comment2.target=int\ enterColumns()
+comment3.params=r\ c
+comment3.target=int[][]\ input2D_Array(int,\ int)
+numComments=4

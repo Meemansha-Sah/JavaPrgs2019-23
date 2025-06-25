@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MultiplyMatrix_2x2
+comment1.params=A\ B
+comment1.target=MultiplyMatrix_2x2(int[][],\ int[][])
+comment2.params=
+comment2.target=void\ multiply()
+comment3.params=
+comment3.target=void\ display()
+comment4.params=
+comment4.target=void\ main()
+numComments=5

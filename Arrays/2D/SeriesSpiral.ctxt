@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SeriesSpiral
+comment1.params=s
+comment1.target=SeriesSpiral(int)
+comment2.params=
+comment2.target=void\ createSpiral()
+numComments=3

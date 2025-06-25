@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MatrixFunctionsChecks
+comment1.params=M
+comment1.target=int[][]\ transpose(int[][])
+comment2.params=A\ B
+comment2.target=boolean\ isComparable(int[][],\ int[][])
+comment3.params=A\ B
+comment3.target=boolean\ isEqual(int[][],\ int[][])
+comment4.params=A
+comment4.target=int[][]\ negative(int[][])
+comment5.params=A
+comment5.target=boolean\ isSymmetric(int[][])
+comment6.params=A
+comment6.target=boolean\ isSkewSymmetric(int[][])
+comment7.params=k\ A
+comment7.target=int[][]\ multiplyScalar(int,\ int[][])
+numComments=8

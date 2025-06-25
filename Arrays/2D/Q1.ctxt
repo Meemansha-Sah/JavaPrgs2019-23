@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Q1
+comment1.params=
+comment1.target=void\ input()
+comment2.params=
+comment2.target=void\ printAll()
+comment3.params=
+comment3.target=void\ printBorder()
+comment4.params=
+comment4.target=void\ sumPlus()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

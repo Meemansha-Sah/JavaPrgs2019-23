@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MagicSquareOdd
+comment1.params=n\ m
+comment1.target=boolean\ isMultiple(int,\ int)
+comment2.params=rc
+comment2.target=void\ main(int)
+numComments=3

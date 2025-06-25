@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MultiplyMatrix2D
+comment1.params=A\ B
+comment1.target=MultiplyMatrix2D(int[][],\ int[][])
+comment2.params=
+comment2.target=boolean\ isPossible()
+comment3.params=a\ b
+comment3.target=int\ multiplyRCVector(int[],\ int[])
+comment4.params=
+comment4.target=void\ multiplyMatrix()
+comment5.params=
+comment5.target=void\ display()
+comment6.params=a\ b
+comment6.target=void\ main(int[][],\ int[][])
+numComments=7
