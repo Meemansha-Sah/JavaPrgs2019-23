@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Hanoi
+comment1.params=s
+comment1.target=Hanoi(int)
+comment10.params=
+comment10.target=void\ operateF()
+comment2.params=
+comment2.target=int\ fromI()
+comment3.params=n
+comment3.target=void\ toI(int)
+comment4.params=
+comment4.target=void\ operateI()
+comment5.params=
+comment5.target=int\ fromM()
+comment6.params=n
+comment6.target=void\ toM(int)
+comment7.params=
+comment7.target=void\ operateM()
+comment8.params=
+comment8.target=int\ fromF()
+comment9.params=n
+comment9.target=void\ toF(int)
+numComments=11

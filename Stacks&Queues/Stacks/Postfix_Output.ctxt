@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Postfix_Output
+comment1.params=exp
+comment1.target=Postfix_Output(java.lang.String)
+comment2.params=
+comment2.target=void\ seperateCommas()
+comment3.params=c
+comment3.target=boolean\ isOperator(char)
+comment4.params=
+comment4.target=void\ replaceValues()
+comment4.text=void\ replaceValues()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ Scanner\ in\=new\ Scanner(System.in);\r\n\ \ \ \ \ \ \ \ postMod_\=postfix;\r\n\ \ \ \ \ \ \ \ System.out.println("Enter\ Values");\r\n\ \ \ \ \ \ \ \ System.out.println("\ ");\r\n\ \ \ \ \ \ \ \ for(int\ i\=0;i<postMod_.length();i++)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(isOperator(postMod_.charAt(i)))\ continue;\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(postMod_.charAt(i)\=\=',')\ continue;\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.print(postMod_.charAt(i)+"\=\ ");\r\n\ \ \ \ \ \ \ \ \ \ \ \ String\ X\=in.next();\r\n\ \ \ \ \ \ \ \ \ \ \ \ char\ x\=X.charAt(0);\r\n\ \ \ \ \ \ \ \ \ \ \ \ postMod_.replace(postMod_.charAt(i),x);\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment5.params=x\ y\ o
+comment5.target=int\ calculate(int,\ int,\ char)
+comment6.params=
+comment6.target=void\ solve()
+numComments=7

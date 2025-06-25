@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=post
+comment1.params=
+comment1.target=post()
+comment2.params=c
+comment2.target=boolean\ isOperator(char)
+numComments=3
