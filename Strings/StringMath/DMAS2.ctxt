@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=DMAS2
+comment1.params=eq
+comment1.target=void\ add(java.lang.String)
+comment2.params=eq
+comment2.target=void\ sub(java.lang.String)
+comment3.params=eq
+comment3.target=void\ multi(java.lang.String)
+comment4.params=eq
+comment4.target=void\ div(java.lang.String)
+numComments=5
