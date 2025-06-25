@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=BinToDec
+comment1.params=B
+comment1.target=int\ b_d(java.lang.String)
+numComments=2

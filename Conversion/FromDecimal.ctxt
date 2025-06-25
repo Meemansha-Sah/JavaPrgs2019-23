@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FromDecimal
+comment1.params=D
+comment1.target=int\ decimal_binary(int)
+comment2.params=D
+comment2.target=int\ decimal_octal(int)
+comment3.params=D
+comment3.target=java.lang.String\ decimal_hexa(int)
+comment4.params=d
+comment4.target=char\ hexaDigits(int)
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ToBinary
+comment1.params=D
+comment1.target=int\ decimal_binary(int)
+comment2.params=O
+comment2.target=void\ octal_binary(int)
+comment3.params=H
+comment3.target=void\ hexa_binary(int)
+comment4.params=c
+comment4.target=int\ hexaDigits(char)
+numComments=5
