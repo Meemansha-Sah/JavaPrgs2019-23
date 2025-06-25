@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Insertion
+comment1.params=in
+comment1.target=Insertion(int[])
+comment2.params=in\ p
+comment2.target=void\ Insert(int,\ int)
+comment3.params=
+comment3.target=void\ display()
+comment4.params=x\ in\ p
+comment4.target=void\ main(int[],\ int,\ int)
+numComments=5

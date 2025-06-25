@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Deletion
+comment1.params=A
+comment1.target=Deletion(int[])
+comment2.params=p
+comment2.target=void\ Delete(int)
+comment3.params=
+comment3.target=void\ display()
+comment4.params=x\ p
+comment4.target=void\ main(int[],\ int)
+numComments=5
