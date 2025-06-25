@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ArraySum_Reverse
+comment1.params=a
+comment1.target=ArraySum_Reverse(int[])
+comment2.params=
+comment2.target=int\ sumE()
+comment3.params=
+comment3.target=int\ sumO()
+comment4.params=
+comment4.target=int\ sumSq()
+comment5.params=
+comment5.target=void\ reverse()
+comment6.params=
+comment6.target=void\ main()
+numComments=7
