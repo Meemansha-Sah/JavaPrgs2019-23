@@ -1,0 +1,2 @@
+We can store data in a data file,
+which can be used by many programmes.

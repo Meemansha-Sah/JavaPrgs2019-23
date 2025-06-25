@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Country
+comment1.params=
+comment1.target=void\ addData()
+comment1.text=Country(String\ nm,String\ cap,String\ cont,String\ lang,long\ p)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ CountryName\=nm;\r\n\ \ \ \ \ \ \ \ Capital\=cap;\r\n\ \ \ \ \ \ \ \ Continent\=cont;\r\n\ \ \ \ \ \ \ \ Language\=lang;\r\n\ \ \ \ \ \ \ \ Population\=p;\r\n}
+comment2.params=
+comment2.target=void\ readData()
+comment3.params=
+comment3.target=void\ findData()
+comment4.params=
+comment4.target=void\ main()
+numComments=5
