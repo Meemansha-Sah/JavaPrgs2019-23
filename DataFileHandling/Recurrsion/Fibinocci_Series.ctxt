@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Fibinocci_Series
+comment1.params=l
+comment1.target=Fibinocci_Series(int)
+comment2.params=i
+comment2.target=void\ seriesSum(int)
+comment3.params=x
+comment3.target=void\ display(int)
+comment4.params=l
+comment4.target=void\ main(int)
+numComments=5
