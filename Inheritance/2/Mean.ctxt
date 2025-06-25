@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mean
+comment1.params=x\ f
+comment1.target=Mean(int[],\ int[])
+comment2.params=
+comment2.target=int\ calMean()
+numComments=3

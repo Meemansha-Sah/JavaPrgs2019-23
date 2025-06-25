@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mode
+comment1.params=x\ f
+comment1.target=Mode(int[],\ int[])
+comment2.params=
+comment2.target=int\ findMode()
+numComments=3
