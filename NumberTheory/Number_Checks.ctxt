@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=Number_Checks
+comment1.params=N
+comment1.target=boolean\ isPalindrome(int)
+comment10.params=N
+comment10.target=boolean\ isAutomorphic(int)
+comment11.params=N
+comment11.target=boolean\ isNivenNo(int)
+comment12.params=a
+comment12.target=boolean\ isAmicable(int)
+comment12.text=public\ static\ boolean\ isCyclic(int\ N)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ for(int\ i\=2;i<\=Number_Functions.no_digits(N);i++)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ int\ n\=N*i;\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment13.params=a\ b
+comment13.target=boolean\ isAmicable_pair(int,\ int)
+comment2.params=N
+comment2.target=boolean\ isPerfect(int)
+comment3.params=N
+comment3.target=boolean\ isAdam_No(int)
+comment4.params=N
+comment4.target=boolean\ isSmith_No(int)
+comment5.params=N
+comment5.target=boolean\ isArmstrong(int)
+comment6.params=N
+comment6.target=boolean\ isNarcissistic(int)
+comment7.params=N
+comment7.target=boolean\ isDudeney(int)
+comment8.params=N
+comment8.target=boolean\ isMagic(int)
+comment9.params=N
+comment9.target=boolean\ isAbundant(int)
+numComments=14

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Prime_Operations
+comment1.params=N
+comment1.target=boolean\ isPrime(int)
+comment10.params=i
+comment10.target=boolean\ isChenPrime(int)
+comment11.params=i
+comment11.target=boolean\ isSophieGermanPrime(int)
+comment12.params=i
+comment12.target=boolean\ isSafePrime(int)
+comment2.params=N
+comment2.target=boolean\ isComposite(int)
+comment3.params=N
+comment3.target=boolean\ isSemiPrime(int)
+comment4.params=N
+comment4.target=boolean\ isInterPrime(int)
+comment5.params=N
+comment5.target=boolean\ isCircularPrime(int)
+comment6.params=N
+comment6.target=boolean\ isEmirpPrime(int)
+comment7.params=N
+comment7.target=boolean\ isPalindromicPrime(int)
+comment8.params=i
+comment8.target=boolean\ isTwinPrime(int)
+comment9.params=i
+comment9.target=boolean\ isCousinPrime(int)
+numComments=13

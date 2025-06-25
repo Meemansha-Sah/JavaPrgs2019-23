@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Karprekar_No
+comment1.params=N\ i
+comment1.target=int\ extract(int,\ int)
+comment2.params=N
+comment2.target=int\ no_digits(int)
+comment3.params=N
+comment3.target=boolean\ isKarprekar(int)
+comment4.params=l\ u
+comment4.target=void\ rangeKarprekar(int,\ int)
+numComments=5

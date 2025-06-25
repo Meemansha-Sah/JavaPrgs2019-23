@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Number_Functions
+comment1.params=N
+comment1.target=void\ extract_digits(int)
+comment10.params=N
+comment10.target=int[]\ allPrimeFactors(int)
+comment2.params=N
+comment2.target=int\ reverse(int)
+comment3.params=N
+comment3.target=int\ no_digits(int)
+comment4.params=N
+comment4.target=int\ rotate_by1(int)
+comment5.params=N
+comment5.target=int\ sumAllPrimeFactors(int)
+comment6.params=N
+comment6.target=int\ sumDigits(int)
+comment7.params=N
+comment7.target=int\ sumSqDigits(int)
+comment8.params=N
+comment8.target=int\ ProductDigits(int)
+comment9.params=N
+comment9.target=int\ sumOfFactors(int)
+numComments=11

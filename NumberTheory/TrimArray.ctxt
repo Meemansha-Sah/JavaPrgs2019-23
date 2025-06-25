@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TrimArray
+comment1.params=A\ l
+comment1.target=int[]\ trimAr(int[],\ int)
+comment2.params=A\ l
+comment2.target=double[]\ trimAr(double[],\ int)
+comment3.params=A\ l
+comment3.target=java.lang.String[]\ trimAr(java.lang.String[],\ int)
+numComments=4

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=NumberRanges
+comment1.params=l\ u
+comment1.target=void\ rangePalindrome(int,\ int)
+comment10.params=l\ u
+comment10.target=void\ rangeAutomorphic(int,\ int)
+comment11.params=l\ u
+comment11.target=void\ rangeNivenNo(int,\ int)
+comment12.params=l\ u
+comment12.target=void\ rangeAmicable(int,\ int)
+comment2.params=l\ u
+comment2.target=void\ rangePerfect(int,\ int)
+comment3.params=l\ u
+comment3.target=void\ rangeAdam(int,\ int)
+comment4.params=l\ u
+comment4.target=void\ rangeSmith(int,\ int)
+comment5.params=l\ u
+comment5.target=void\ rangeArmstrong(int,\ int)
+comment6.params=l\ u
+comment6.target=void\ rangeNarcissistic(int,\ int)
+comment7.params=l\ u
+comment7.target=void\ rangeDudeney(int,\ int)
+comment8.params=l\ u
+comment8.target=void\ rangeMagic(int,\ int)
+comment9.params=l\ u
+comment9.target=void\ rangeAbundant(int,\ int)
+numComments=13

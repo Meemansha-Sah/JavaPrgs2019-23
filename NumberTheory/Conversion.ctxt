@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Conversion
+comment1.params=B
+comment1.target=int\ binary_decimal(int)
+comment2.params=D
+comment2.target=int\ decimal_binary(int)
+comment3.params=B
+comment3.target=void\ binary_octal(int)
+comment4.params=O
+comment4.target=void\ octal_binary(int)
+comment5.params=d
+comment5.target=char\ hexaDigits(int)
+comment6.params=B
+comment6.target=void\ binary_hexaDecimal(int)
+numComments=7

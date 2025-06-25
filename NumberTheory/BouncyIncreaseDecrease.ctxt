@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BouncyIncreaseDecrease
+comment1.params=N
+comment1.target=BouncyIncreaseDecrease(int)
+comment2.params=
+comment2.target=void\ isIncreasingOrDecreasing()
+comment3.params=I
+comment3.target=void\ main(int)
+numComments=4
