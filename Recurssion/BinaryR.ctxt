@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BinaryR
+comment1.params=a
+comment1.target=BinaryR(int[])
+comment2.params=V
+comment2.target=void\ findValue(int)
+comment3.params=a\ i\ f
+comment3.target=int[]\ subArray(int[],\ int,\ int)
+comment4.params=a
+comment4.target=int\ binSearch(int[])
+numComments=5

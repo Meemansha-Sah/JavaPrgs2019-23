@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Perfect
+comment1.params=nn
+comment1.target=Perfect(int)
+comment2.params=f
+comment2.target=int\ sumFac(int)
+comment3.params=
+comment3.target=boolean\ isPerfect()
+comment4.params=n
+comment4.target=void\ main(int)
+numComments=5
